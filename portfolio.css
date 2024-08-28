@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #444;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #d1d1d1;
+}
+
+section {
+    padding: 30px 0;  /* Reduced padding */
+}
+
+#about {
+    text-align: center;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 15px;  /* Reduced margin */
+    color: #343a40;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    color: #666;
+}
+
+#skills ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+#skills li {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: center;
+    font-size: 1.1em;
+    color: #343a40;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;  /* Reduced margin */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #343a40;
+}
+
+.project p {
+    color: #666;
+}
+
+#resume a {
+    display: inline-block;
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+#resume a:hover {
+    background-color: #495057;
+}
+
+#contact p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+footer {
+    background-color: #343a40;
+    color: #d1d1d1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #d1d1d1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
